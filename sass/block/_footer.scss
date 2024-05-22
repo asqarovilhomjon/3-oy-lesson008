@@ -1,0 +1,20 @@
+
+footer{
+    background: $bg-py;
+    .footer__main{
+    padding: 20px 35px;
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 58px;
+    span{
+        color: white;
+    }
+    .footer__text{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+        color: #302E2F;
+    }
+}
+}

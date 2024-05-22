@@ -1,0 +1,47 @@
+.content{
+    width: 100%;
+    background: $bg-sy;
+    padding: 176px 0 160px;
+    &__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 32px;
+        .content__card{
+            max-width: 352px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 70px 45px;
+            background: $bg-py;
+            border-radius: 8px;
+            p{
+                font-family: roboto;
+                font-size: 22px;
+                font-weight: 700;
+                text-align: center;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+@media (max-width: 900px){
+ .content{
+    .content__box{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+ }
+}
+@media (max-width: 500px) {
+ .content{
+    padding: 77px 0;
+    .content__box{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+ }
+}
